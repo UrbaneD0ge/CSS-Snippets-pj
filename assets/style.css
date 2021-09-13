@@ -1,3 +1,95 @@
+:root {
+    /* color vars */
+    --background: #282828;
+    --irl-text: #fc0;
+    --code-text: #3f3;
+}
+
+::selection {
+    /* on select */
+    background-color: var(--background);
+    color: gray;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.75rem;
+    line-height: 1.5;
+    color: var(irl-text);
+    background-color: var(--background);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: .625rem;
+    color: var(--irl-text);
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+h1 {
+font-size: 4rem;
+}
+
+h2 {
+font-size: 3.5rem;
+}
+
+h3 {
+font-size: 3rem;
+}
+
+h4 {
+font-size: 2.5rem;
+}
+
+h5 {
+font-size: 2rem;
+}
+
+h6 {
+font-size: 1.5rem;
+}
+
+p {
+margin-bottom: 1rem;
+}
+
+code {
+    font-family: Consolas, 'andale Mono WT', 'Andale Mono', 'Lucida Console', Monaco, Courier, monospace;
+}
+
+header {
+width: 96%;
+margin: 0 auto;
+padding: 2.5rem;
+text-align: center;
+}
+
+header h1.page-title {
+padding: 1rem 1.2rem;
+font-size: 4.5rem;
+}
+
+main {
+width: 96%;
+margin: 2rem auto;
+}
+
+footer {
+margin: 1.5rem;
+text-align: center;
+}
+
+
 .row{
     display: flex;
     flex-direction: row;
